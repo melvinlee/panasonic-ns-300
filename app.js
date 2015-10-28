@@ -1,7 +1,7 @@
 var net = require('net');
 var sleep = require('sleep');
 
-var port = 2300;
+var port = process.env.port || 2300;
 
 net.createServer(function (connection) {
   
