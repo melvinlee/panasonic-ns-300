@@ -1,0 +1,15 @@
+{
+  "name": "panasonic-ns300-smdr",
+  "version": "1.0.0",
+  "description": "A TCP server to simulate panasonic NS300 smdr behavior",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sleep": "^3.0.0"
+  }
+}
